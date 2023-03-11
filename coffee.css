@@ -606,7 +606,7 @@ text-transform: uppercase;
     isolation: isolate; 
     gap: 1.5rem;
     border-radius: 5px;
-
+    justify-content: center;
 
  }
 .shipping .row .ship-img {
@@ -806,7 +806,7 @@ footer{
     font-size: 4.5rem;
 }
 .home .content p{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 }
 @media (max-width:450px){
