@@ -396,9 +396,9 @@ section{
     font-size: 1.3rem;
 }*/
 
-.buynow .box-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.buynow .box-container{
+display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 .buynow .box-container {
