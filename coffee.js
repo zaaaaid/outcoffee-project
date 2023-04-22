@@ -68,6 +68,7 @@ function clearMessages(){
         errorNodes[i].innerText = "";
 
     }
+    success.innerText = "";
     nameInput.classList.remove('.error');
     email.classList.remove('.error')
     number.classList.remove('.error')
