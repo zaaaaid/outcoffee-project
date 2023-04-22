@@ -367,6 +367,17 @@ section{
     background: var(--black);
     border: var(--border);
 }
+.contact .row form .inputBox .error{
+    color: red;
+}
+
+.contact .row form .inputBox .error .error-border{
+    border-bottom: 1px solid red;
+}
+.contact .row form .inputBox p{
+    color: var(--main-color);
+    font-size: 3rem;
+}
 .contact .row form .inputBox span{
     color: #fff;
     font-size: 2rem;
@@ -638,6 +649,55 @@ font-weight: bold;
     font-weight: 500;
 }
 
+
+
+
+.shippings .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    isolation: isolate; 
+    gap: 1.5rem;
+    border-radius: 5px;
+    justify-content: center;
+
+ }
+.shippings .row .ship-img {
+    padding: 3.5rem;
+}
+
+.shippings .row .ship-img  img{
+    height: 25rem;
+    border-radius: 200px;
+    
+}
+.shippings .row .ship-img .ship-content h4{
+text-transform: uppercase;
+letter-spacing: .3em;
+font-size: 2rem;
+text-align: center;
+margin-bottom: 1rem;
+color: var(--main-color);
+font-weight: bold;
+margin-top: 18px;
+}
+
+.shippings .row .ship-img .ship-content p {
+    text-align: center;
+    margin: 0 0 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    width: 210px;
+}
+.shippings .row .ship-img .ship-contents{
+margin-left: 5.2rem;
+margin-top: 2rem;
+}
+
+
 .content1 h2{
     font-size: 4rem;
     color: #fff;
@@ -658,8 +718,8 @@ font-weight: bold;
     border: 1px solid black;
     border-radius: 7px;
     height: 30rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
 
 }
 .box101 .slider{
@@ -691,7 +751,7 @@ font-weight: bold;
 
 
 
-footer{
+.footer{
     
     bottom: 0;
 }
@@ -819,6 +879,43 @@ footer{
     } 
 
   
+}
+.shippingss .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    isolation: isolate; 
+    gap: 1.5rem;
+    border-radius: 5px;
+    justify-content: center;
+
+ }
+.shippingss .row .ship-img {
+    padding: 3.5rem;
+}
+
+.shippingss .row .ship-img  img{
+    height: 25rem;
+    border-radius: 200px;
+    
+}
+.shippingss .row .ship-img .ship-content h4{
+text-transform: uppercase;
+font-size: 2rem;
+text-align: center;
+margin-bottom: 1rem;
+color: white;
+font-weight: bold;
+margin-top: 2rem;
+}
+
+.shippingss .row .ship-img .ship-content p {
+    text-align: center;
+    margin: 0 0 15px;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 
